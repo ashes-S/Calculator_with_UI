@@ -1,0 +1,151 @@
+/*must document settings*/
+*{  
+    box-sizing: border-box;
+    font-family: Verdana;    
+    margin: unset;
+    padding: unset;
+}
+
+body{background-image: linear-gradient(rgb(27, 122, 199), rgb(1, 141, 255));}
+
+
+/*main*/
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 49.6rem;
+}
+
+main>h1{
+    font-size: 3vw;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin: 0.3vw 0;
+    letter-spacing: 3px;
+    user-select: none;
+}
+
+
+/*Section*/
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 47.2vw;
+    background-color: rgba(3, 27, 43, 0.445);
+}
+
+
+
+/*figure*/
+
+section>figure{
+    display: flex;
+    text-align: center;
+    width: 40vw;
+    height: 44vw;    
+    flex-direction: column;
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 1.2rem;
+}
+
+/*screen*/
+.screen{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 5.6vw;
+    width: 40vw;
+    height: 7.34vw;
+    background-color: black;
+    color: white;
+    border-top-right-radius: 1.1rem;
+    border-top-left-radius: 1.1rem;
+    user-select: none;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    letter-spacing: 1.2px;
+}
+
+.screen:hover{background-color: rgba(12, 11, 11, 0.932);}
+
+
+
+/*Line Divs*/
+figure>div{
+    display: flex;
+    width: 30vw;
+    height: 7.3vw;
+}
+
+/*Specified lines*/
+.arithmetic{
+    width: 40vw !important;
+    height: 7.3vw !important;
+}
+
+.numbers1stLine{
+    width: 40vw !important;
+    height: 7.3vw !important;
+}
+
+.numbers4thLine{
+    width: 40vw !important;
+    border-bottom-left-radius: 1.1rem;
+    border-bottom-right-radius: 1.1rem;
+}
+
+
+
+/*Box Divs*/
+figure>div>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 7.34432vw;
+    border: 2px black solid;
+    border-bottom: none;
+    font-size: 1.8vw;
+    user-select: none;
+}
+
+/*Specified Boxes*/
+.dot{
+    font-size: 3vw !important;
+}
+
+.dot{border-bottom-left-radius: 1.1rem;}
+
+/*add on class*/
+.disable:active{pointer-events: none;
+background-color: red;}
+
+.dlt{
+    border-bottom-right-radius: 1.1rem;
+    cursor: pointer;
+}
+
+.clear{cursor: pointer;}
+
+.calc{
+    height: 21.9vw;
+    width: 10vw;
+    cursor: pointer;
+}
+
+
+/*On Hover*/
+figure>div>div:hover{background-color: rgba(10, 142, 160, 0.808);}
+
+
+
+
+
+
+
+
